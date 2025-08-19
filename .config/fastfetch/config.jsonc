@@ -1,0 +1,75 @@
+{
+  "logo": "C:\\Users\\boibl\\.config\\fastfetch\\freieren.txt",
+  "display": {
+    "separator": " ~ ",
+  },
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": " おかえり᯽",
+      "keyColor": "blue",
+    },
+    {
+      "type": "custom",
+      "format": "───────────────────────────────",
+    },
+    {
+      "type": "os",
+      "key": " ",
+      "format": "Artix linux",
+      "keyColor": "blue",
+    },
+    {
+      "type": "kernel",
+      "key": " ",
+      "format": "artix 6.13.2",
+      "keyColor": "blue",
+    },
+    {
+      "type": "packages",
+      "key": "󰏗 ",
+      "format": "1187 (pacman)",
+      "keyColor": "blue",
+    },
+    {
+      "type": "command",
+      "text": "cmd /c call %USERPROFILE%/.config/fastfetch/wm.bat",
+      "key": " ",
+      "keyColor": "blue",
+    },
+    {
+      "type": "shell",
+      "key": " ",
+      "format": "fish 3.7.1",
+      "keyColor": "blue",
+    },
+    {
+      "type": "terminal",
+      "key": " ",
+      "format": "ghostty",
+      "keyColor": "blue",
+    },
+    {
+      "type": "de",
+      "key": " ",
+      "format": "runit",
+      "keyColor": "blue",
+    },
+    {
+      "type": "memory",
+      "key": " ",
+      "keyColor": "blue",
+    },
+    {
+      "type": "uptime",
+      "key": "󱦟 ",
+      "keyColor": "blue",
+    },
+    {
+      "type": "custom",
+      "keyColor": "blue",
+      "format": "\u001b[90m▂▂  \u001b[31m▂▂  \u001b[32m▂▂  \u001b[33m▂▂  \u001b[34m▂▂  \u001b[35m▂▂  \u001b[36m▂▂  \u001b[37m▂▂ ",
+    },
+  ],
+}
