@@ -1,6 +1,6 @@
 # HyprBlossom 🌸
 
-here are all my windows 11 configs split nicely for reuse
+here are all my windows 11 configs split nicely for reuse meant to mimic hyprland
 
 wallpaper: <a href="https://files.catbox.moe/v6c4z4.png">Here</a>
 
