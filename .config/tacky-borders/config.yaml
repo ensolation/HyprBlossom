@@ -1,0 +1,72 @@
+watch_config_changes: True
+
+global:
+  border_width: 2 # Width of the border
+  border_offset: -1 # How close the border is to the window edges
+  border_radius: 10 # Radius of the corners. Leave it at -1 to let tacky-borders handle the radius or set your own custom value.
+
+  active_color:
+    colors: ["#C7B8B8", "#787D82"]
+    direction:
+      start: [0.0, 0.0] # [0.0, 0.0] is the top left corner (windows api is weird like that)
+      end: [1.0, 1.0] # [1.0, 1.0] is the bottom right corner
+  #active_color: "#7F7FD5"
+
+  inactive_color:
+    colors: ['#00000000','#00000000']
+    direction:
+      start: [1.0, 0.3] # [0.0, 0.0] is the top left corner (windows api is weird like that)
+      end: [0.0, 0.7] # [1.0, 1.0] is the bottom right corner
+  #inactive_color: "#575660" # Color of unfocused windows. Currently supports a hex code like "#ffffff" or "accent" (and now gradients!)
+
+  initialize_delay: 20 # I reduce the delay here because of the fade animation which takes some time itself
+  unminimize_delay: 50
+
+  animations:
+    fps: 15 # Reduced from 30 to slow down the animation
+    active:
+      - type: ReverseSpiral
+        duration: 1800
+        easing: Linear
+      - type: Fade
+        duration: 200
+        easing: EaseInOutQuad
+    inactive:
+      - type: Spiral
+        duration: 1800
+        easing: Linear
+      - type: Fade
+        duration: 200
+        easing: EaseInOutQuad
+
+# Customize config options on a per-app basis
+window_rules:
+  - match: "Class"
+    name: "Windows.UI.Core.CoreWindow"
+    enabled: false
+
+  - match: "Class"
+    name: "XamlExplorerHostIslandWindow"
+    enabled: false
+
+  - match: "Title"
+    name: "Flow.Launcher"
+    enabled: false
+
+  - match: "Title"
+    name: "Zebar"
+    enabled: false
+
+  - match: "Title"
+    name: "keyviz"
+    enabled: false
+  # EXAMPLE CONFIGURATION:
+  # - match: "Class"               # Currently supports "Class" or "Title"
+  #   name: "MozillaWindowClass"   # Name of the class or title
+  #   strategy: "Equals"           # Optional. Currently supports "Equals", "Contains", or "Regex". Defaults to "Equals"
+  #   border_width: 10             # The next few options are all optional and default to global config if nothing is specified
+  #   border_radius: -10
+  #   border_offset: -10
+  #   active_color: "#ffffff"
+  #   inactive_color: "#000000"
+  #   enabled: true                # Optional. Enables or disables the border. Defaults to true. Note: you can't forcibly enable borders yet
