@@ -1,0 +1,71 @@
+/**
+ * @name Compact Member List
+ * @description Makes user list on the right smaller & compact
+ * @author peacedose
+ * @version 0.0.2
+ * @authorId 92920555855569182
+ * @source .
+*/
+
+/* Entire user list */
+.member__5d473 {
+    height: 28px !important;
+    padding: var(--space-xxs) var(--space-xs);
+    margin: calc(var(--space-xxs) / 2) var(--space-xxs);
+/*        &:hover {
+        background: var(--bg-overlay-hover, var(--background-modifier-hover));
+    }*/
+}
+
+/* Whole user string */
+.memberInner__5d473, .childContainer__91a9d {
+    padding: 0px !important;
+    display: flex !important;
+    align-items: center !important;
+    align-content: center !important;
+/*    margin-left: -25px !important;*/
+    max-width: 100%;
+}
+
+/* Avatar */
+.avatar__91a9d {
+    scale: 0.75;
+    margin-right: 4px;
+}
+
+/* Status text */
+.subText__91a9d {
+    margin-left: -5px;
+    margin-bottom: -4px;
+    .text_c9d15c {
+        font-weight: 400;
+    }
+}
+
+/**/
+.content__91a9d {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    gap: 8px;
+}
+
+/* Category text */
+.membersGroup_c8ffbb {
+    text-transform: lowercase;
+    font-weight: 700;
+    margin: 10px 0px -13px 0px;
+    opacity: 70%;
+    &::first-letter { 
+      text-transform: uppercase; 
+    }
+}
+
+.membersGroup_c8ffbb {
+    padding: var(--space-xs) var(--space-xxs) var(--space-xs) var(--space-sm)!important;
+}
+
+/* Shorter member names */
+.nameAndDecorators__91a9d .username__5d473 {
+    max-width: 145px;
+}
