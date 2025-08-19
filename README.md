@@ -4,9 +4,16 @@ here are all my windows 11 configs split nicely for reuse
 
 wallpaper: <a href="https://files.catbox.moe/v6c4z4.png">here</a>
 
+wallpaper dir: C:\Users\boibl\Pictures\wallpapers
+
+
+
 Zen Browser theme: <a href="https://github.com/allecsc/Altover">altover</a>
 
 discord client: <a href="https://github.com/Equicord/Equibop">equibop</a>
+
+themes dir: C:\Users\boibl\AppData\Roaming\equibop\themes
+
 
 <div align="center">
     <summary><h1 align="center">DE</h1></summary>
