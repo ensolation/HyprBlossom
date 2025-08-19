@@ -19,5 +19,10 @@ vscode profile: <a href="https://vscode.dev/profile/github/77306e445ac5046840a67
 
 <div align="center">
     <summary><h1 align="center">DE</h1></summary>
-    <img src="images/image.png" width="90%"/>
+    <img src="images/showcase1.png" width="90%"/>
+</div>
+<div align="center">
+    <summary><h1 align="center">Zed && Cosmo</h1></summary>
+    <img src="images/image.png" width="80%"/>
+    <img src="images/showcase.png" width="80%"/>
 </div>
