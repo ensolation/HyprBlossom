@@ -1,0 +1,170 @@
+{
+  "color": {
+    "mode": "dynamic",
+    "isDark": true,
+    "isTinted": false,
+    "accentColor": "#6200ee"
+  },
+  "bg": {
+    "mode": "static",
+    "options": {
+      "filter": {
+        "blur": 25,
+        "saturation": 150,
+        "contrast": 100,
+        "brightness": 53,
+        "opacity": 0
+      },
+      "color": "#060606",
+      "imageMode": "custom",
+      "imageSrc": "https://p",
+      "autoStopAnimation": true
+    }
+  },
+  "bodyClass": {
+    "hideHomeHeader": true,
+    "newHome": true,
+    "flexyHome": true
+  },
+  "umv": {
+    "type": "default",
+    "isScrolling": false,
+    "isScaling": false,
+    "filter": {
+      "blur": 16,
+      "saturation": 150,
+      "contrast": 100,
+      "brightness": 80,
+      "opacity": 0
+    },
+    "customColor": "#060606",
+    "customUrl": "https://picsum.photos/1920/1080"
+  },
+  "uiPreferences": {
+    "windowControlHeight": 54,
+    "bodyFont": {
+      "family": "Inter",
+      "variants": [
+        "100",
+        "200",
+        "300",
+        "regular",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ]
+    },
+    "titleFont": {
+      "family": "Inter",
+      "variants": [
+        "100",
+        "200",
+        "300",
+        "regular",
+        "500",
+        "600",
+        "700",
+        "800",
+        "900"
+      ]
+    },
+    "border": {
+      "color": "rgba(255,255,255,.1)",
+      "hoverColor": "rgba(255,255,255,.2)",
+      "thickness": 0,
+      "style": "solid"
+    }
+  },
+  "page": {
+    "mode": "card",
+    "coverMode": "default",
+    "homeCardGap": 8,
+    "panelGap": 8
+  },
+  "player": {
+    "mode": "default",
+    "nextSongCard": {
+      "show": false,
+      "isFloating": true,
+      "gap": 4,
+      "height": 64,
+      "maxWidth": 256,
+      "paddingX": 8,
+      "paddingY": 8,
+      "coverArtSize": 48,
+      "removeNextUp": true,
+      "position": "left"
+    },
+    "autoHide": false,
+    "isFloating": true,
+    "hideExtraIcon": true,
+    "defaultStyle": {
+      "height": 80,
+      "sliderHeight": 4,
+      "width": 100,
+      "borderRadius": 8,
+      "coverArtRadius": 8,
+      "bgOpacity": 0,
+      "paddingX": 8,
+      "backdropFilter": {
+        "blur": 32,
+        "saturation": 150,
+        "brightness": 50,
+        "contrast": 100,
+        "opacity": 0
+      },
+      "bgColor": "var(--main-bg)"
+    },
+    "compactStyle": {
+      "height": 64,
+      "sliderHeight": 4,
+      "width": 100,
+      "borderRadius": 8,
+      "coverArtRadius": 8,
+      "bgOpacity": 50,
+      "paddingX": 8,
+      "backdropFilter": {
+        "blur": 32,
+        "saturation": 150,
+        "brightness": 50,
+        "contrast": 100,
+        "opacity": 100
+      },
+      "bgColor": "var(--main-bg)"
+    }
+  },
+  "settingModal": {
+    "accessPoint": "nav",
+    "isFloating": false,
+    "floatingPosition": {
+      "x": 64,
+      "y": 64
+    }
+  },
+  "library": {
+    "autoHide": false,
+    "hoverTargetWidth": 50
+  },
+  "rightSidebar": {
+    "mode": "compact",
+    "positionX": "left",
+    "positionY": "bottom",
+    "autoHide": false,
+    "hoverTargetWidth": 40,
+    "compactBackdropFilter": {
+      "blur": 32,
+      "saturation": 150,
+      "brightness": 50,
+      "contrast": 100,
+      "opacity": 0
+    },
+    "compactSize": 0
+  },
+  "globalNav": {
+    "floating": false,
+    "autoHide": false,
+    "hoverTargetWidth": 40
+  }
+}
