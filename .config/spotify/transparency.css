@@ -1,0 +1,206 @@
+/*-------------------------------*/
+/* -------Custom CSS-------*/
+/*-------------------------------*/
+
+/*Background Transperancy*/
+html,
+.Root__top-container,
+.Root__now-playing-bar .main-nowPlayingBar-container {
+	background-color: #00000080 !important;
+}
+
+.main-yourLibraryX-entryPoints, /* Left panel */
+.Root__main-view, 				/* Middle panel */
+#Desktop_PanelContainer_Id 		/* Right panel */
+{
+	background-color: #00000000 !important;
+}
+
+/* Bottom panel */
+.Root__now-playing-bar .main-nowPlayingBar-container {
+	background-image: none !important;
+}
+
+/* Top panel */
+/*.Root__globalNav {
+	display: none !important;
+}*/
+
+/* Unused hide image cover */
+/*.expanded .umv-img,
+.normal .umv-img,
+.umv-img 
+{
+	background-image: none !important;
+}*/
+
+/*-------------------------------*/
+
+/* Unused hide image cover */
+.expanded .umv-img,
+.normal .umv-img,
+.umv-img 
+{
+    background-image: none !important;
+}
+
+/* Hide useless buttons in now playing at the bottom */
+div.main-nowPlayingBar-extraControls > :is(button[data-testid="control-button-npv"]),
+div[class="GlueDropTarget GlueDropTarget--tracks GlueDropTarget--local-tracks GlueDropTarget--episodes"],
+div[class="main-contextMenu-tippyWrapper"],
+button[data-testid="lyrics-button"],
+button[data-testid="pip-toggle-button"],
+button[data-testid="fullscreen-mode-button"],
+section[aria-label="Слухай найкращі локальні плейлисти"],
+section[data-shelf="shelf"]
+{
+	display: none !important;
+}
+
+/*-------------------------------*/
+
+/* Thick playing/sound bars and bigger font size*/
+.main-playbackBarRemainingTime-container,
+.playback-bar__progress-time-elapsed 
+{
+	font-size: 16px !important;
+	font-weight: 500 !important;
+}
+
+
+/*-------------------------------*/
+
+/* Less gap in library left sidebar */
+.main-yourLibraryX-libraryRootlist {
+	gap: 1px;
+}
+
+/*-------------------------------*/
+
+/* Power Bar settings */
+#power-bar-container 
+{
+	--power-bar-background-color: #121212;
+	--power-bar-main-text-color: #b3b3b3;
+	--power-bar-subtext-color: #b3b3b3;
+	--power-bar-active-background-color: #212121;
+	--power-bar-active-text-color: #b3b3b3;
+	--power-bar-border-color: #1b1b1b;
+	background-color: rgba(0, 0, 0, .1);
+}
+
+#power-bar-container #power-bar-suggestions {
+	scrollbar-width: none;
+}
+
+/*-------------------------------*/
+
+/* Theme colors */
+:root, body {
+	--clr-primary: #a6a6a6;
+	--clr-primary-rgb: 166, 166, 166;
+	--clr-on-primary: #242424;
+	--clr-on-primary-rgb: 36, 36, 36;
+	--clr-primary-container: #343434;
+	--clr-primary-container-rgb: 52, 52, 52;
+	--clr-on-primary-container: #c5c5c5;
+	--clr-on-primary-container-rgb: 197, 197, 197;
+	--clr-secondary: #c3c3c3;
+	--clr-secondary-rgb: 195, 195, 195;
+	--clr-on-secondary: #2d2d2d;
+	--clr-on-secondary-rgb: 45, 45, 45;
+	--clr-secondary-container: #444444;
+	--clr-secondary-container-rgb: 68, 68, 68;
+	--clr-on-secondary-container: #dfdfdf;
+	--clr-on-secondary-container-rgb: 223, 223, 223;
+	--clr-tertiary: #c1c1c1;
+	--clr-tertiary-rgb: 193, 193, 193;
+	--clr-on-tertiary: #272727;
+	--clr-on-tertiary-rgb: 39, 39, 39;
+	--clr-tertiary-container: #404040;
+	--clr-tertiary-container-rgb: 64, 64, 64;
+	--clr-on-tertiary-container: #dedede;
+	--clr-on-tertiary-container-rgb: 222, 222, 222;
+	--clr-error: #c9c9c9;
+	--clr-error-rgb: 201, 201, 201;
+	--clr-on-error: #202020;
+	--clr-on-error-rgb: 32, 32, 32;
+	--clr-error-container: #2d2d2d;
+	--clr-error-container-rgb: 45, 45, 45;
+	--clr-on-error-container: #c9c9c9;
+	--clr-on-error-container-rgb: 201, 201, 201;
+	--clr-background: #1a1a1a;
+	--clr-background-rgb: 26, 26, 26;
+	--clr-on-background: #e2e2e2;
+	--clr-on-background-rgb: 226, 226, 226;
+	--clr-surface: #1b1b1b;
+	--clr-surface-rgb: 27, 27, 27;
+	--clr-on-surface: #e2e2e2;
+	--clr-on-surface-rgb: 226, 226, 226;
+	--clr-surface-variant: #464646;
+	--clr-surface-variant-rgb: 70, 70, 70;
+	--clr-on-surface-variant: #c5c5c5;
+	--clr-on-surface-variant-rgb: 197, 197, 197;
+	--clr-outline: #8f8f8f;
+	--clr-outline-rgb: 143, 143, 143;
+	--clr-outline-variant: #464646;
+	--clr-outline-variant-rgb: 70, 70, 70;
+	--clr-shadow: #000000;
+	--clr-shadow-rgb: 0, 0, 0;
+	--clr-scrim: #000000;
+	--clr-scrim-rgb: 0, 0, 0;
+	--clr-inverse-surface: #e2e2e2;
+	--clr-inverse-surface-rgb: 226, 226, 226;
+	--clr-inverse-on-surface: #303030;
+	--clr-inverse-on-surface-rgb: 48, 48, 48;
+	--clr-inverse-primary: #454545;
+	--clr-inverse-primary-rgb: 69, 69, 69;
+	--clr-surface-0: #121212;
+	--clr-surface-0-rgb: 18, 18, 18;
+	--clr-surface-1: #1e1e1e;
+	--clr-surface-1-rgb: 30, 30, 30;
+	--clr-surface-2: #2f2f2f;
+	--clr-surface-2-rgb: 47, 47, 47;
+	--clr-surface-3: #373737;
+	--clr-surface-3-rgb: 55, 55, 55;
+	--clr-surface-4: #404040;
+	--clr-surface-4-rgb: 64, 64, 64;
+	--clr-surface-5: #575757;
+	--clr-surface-5-rgb: 87, 87, 87;
+	--clr-on-surface-0: #fbfbfb;
+	--clr-on-surface-0-rgb: 251, 251, 251;
+	--clr-on-surface-1: #f0f0f0;
+	--clr-on-surface-1-rgb: 240, 240, 240;
+	--clr-on-surface-2: #e1e1e1;
+	--clr-on-surface-2-rgb: 225, 225, 225;
+	--clr-on-surface-3: #c5c5c5;
+	--clr-on-surface-3-rgb: 197, 197, 197;
+	--clr-on-surface-4: #adadad;
+	--clr-on-surface-4-rgb: 173, 173, 173;
+	--clr-on-surface-5: #8f8f8f;
+	--clr-on-surface-5-rgb: 143, 143, 143;
+	--clr-primary-0: #a6a6a6;
+	--clr-primary-0-rgb: 166, 166, 166;
+	--clr-primary-1: #838383;
+	--clr-primary-1-rgb: 131, 131, 131;
+	--clr-primary-2: #6a6a6a;
+	--clr-primary-2-rgb: 106, 106, 106;
+	--clr-primary-3: #515151;
+	--clr-primary-3-rgb: 81, 81, 81;
+	--clr-primary-4: #454545;
+	--clr-primary-4-rgb: 69, 69, 69;
+	--clr-primary-5: #343434;
+	--clr-primary-5-rgb: 52, 52, 52;
+	--clr-on-primary-0: #fbfbfb;
+	--clr-on-primary-0-rgb: 251, 251, 251;
+	--clr-on-primary-1: #e8e8e8;
+	--clr-on-primary-1-rgb: 232, 232, 232;
+	--clr-on-primary-2: #c5c5c5;
+	--clr-on-primary-2-rgb: 197, 197, 197;
+	--clr-on-primary-3: #a6a6a6;
+	--clr-on-primary-3-rgb: 166, 166, 166;
+	--clr-on-primary-4: #838383;
+	--clr-on-primary-4-rgb: 131, 131, 131;
+	--clr-on-primary-5: #6a6a6a;
+	--clr-on-primary-5-rgb: 106, 106, 106;
+}
