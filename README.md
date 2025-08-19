@@ -4,6 +4,7 @@ here are all my windows 11 configs split nicely for reuse
 
 wallpaper: <a href="https://files.catbox.moe/v6c4z4.png">here</a>
 
+Zen Browser theme: <a href="https://github.com/allecsc/Altover">here</a>
 
 <div align="center">
     <summary><h1 align="center">DE</h1></summary>
