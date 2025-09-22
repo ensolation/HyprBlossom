@@ -4,7 +4,7 @@
   "resize_delta": 50,
   "animation": {
     "enabled": true,
-    "duration": 650,
+    "duration": 600,
     "fps": 240,
     "style": {
       "movement": "EaseOutBack",
@@ -23,8 +23,8 @@
   "border_style": "Rounded",
   "border_width": 4,
   "cross_monitor_move_behaviour": "Insert",
-  "default_container_padding": 10,
-  "default_workspace_padding": 4,
+  "default_container_padding": 14,
+  "default_workspace_padding": 14,
   "float_override": false,
   "global_work_area_offset": {
     "left": 0,
@@ -55,23 +55,23 @@
     {
       "workspaces": [
         {
-          "name": "一",
+          "name": "お",
           "layout": "BSP"
         },
         {
-          "name": "二",
+          "name": "い",
           "layout": "BSP"
         },
         {
-          "name": "三",
+          "name": "う",
           "layout": "BSP"
         },
         {
-          "name": "四",
+          "name": "み",
           "layout": "BSP"
         },
         {
-          "name": "五",
+          "name": "の",
           "layout": "BSP"
         }
       ]
@@ -79,23 +79,23 @@
     {
       "workspaces": [
         {
-          "name": "一",
+          "name": "お",
           "layout": "Rows"
         },
         {
-          "name": "二",
+          "name": "い",
           "layout": "Rows"
         },
         {
-          "name": "三",
+          "name": "う",
           "layout": "Rows"
         },
         {
-          "name": "四",
+          "name": "み",
           "layout": "Rows"
         },
         {
-          "name": "五",
+          "name": "の",
           "layout": "Rows"
         }
       ]
