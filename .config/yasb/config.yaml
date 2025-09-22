@@ -30,9 +30,9 @@ bars:
       width: "100%"
       height: 34
     padding:
-      top: 16
+      top: 18
       left: 400
-      bottom: 0
+      bottom: -2
       right: 400
     widgets:
       left: ["komorebi_workspaces", "wallpapers"]
@@ -47,7 +47,7 @@ bars:
           "divider",
           "volume",
           "divider",
-          "notes",
+          "memory",
           "divider",
           "uwifi",
           "uspace",
@@ -182,7 +182,7 @@ widgets:
         round_corners: True
         round_corners_type: "normal"
         border_color: "System"
-        alignment: "right"
+        alignment: "center"
         direction: "down"
         distance: 6
       callbacks:
@@ -303,14 +303,14 @@ widgets:
   wallpapers:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
-      label: "<h1>󰊓</h1>"
+      label: "<h2>•</h2>"
       image_path: "C:\\Users\\boibl\\Pictures\\Wallpapers"
       change_automatically: false
       update_interval: 60
       gallery:
         enabled: true
         blur: true
-        image_width: 296
+        image_width: 246
         image_per_page: 6
         show_buttons: false
         orientation: "portrait"
@@ -318,13 +318,11 @@ widgets:
         lazy_load: true
         lazy_load_delay: 10
         lazy_load_fadein: 200
-        image_corner_radius: 20
+        image_corner_radius: 15
         enable_cache: true
       run_after: # List of functions to run after wallpaper is updated
         - "cmd.exe /c start /min pwsh -Command Import-Module 'C:/Users/boibl/winwal/winwal.psm1'"
-        - "cmd.exe /c start /min pwsh -Command update-waltheme"
-        - "cmd.exe /c start /min pwsh -command . C:/Users/boibl/yasb_pywal.ps1"
-        - "cmd.exe /c start /min pwsh -command . C:/Users/boibl/tacky_pywal.ps1"
+        - "cmd.exe /c start /min pwsh -Command C:/Users/boibl/theme.ps1"
         - "cmd.exe /c start /min pwsh -command . C:/Users/boibl/Downloads/.wntr/.scrpt/get_wallpaper.bat"
   uwifi:
     type: "yasb.custom.CustomWidget"
