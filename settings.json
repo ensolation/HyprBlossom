@@ -8,7 +8,9 @@
     },
     {
       "command": {
-        "action": "splitPane"
+        "action": "splitPane",
+        "profile": "{b3519b7d-13d8-48b2-822c-e81af082bd53}",
+        "startingDirectory": "C:\\Windows\\System32\\"
       },
       "id": "User.splitPane.91AB55B1"
     },
@@ -20,13 +22,22 @@
       "id": "User.copy.644BA8F2"
     },
     {
+      "command": {
+        "action": "splitPane",
+        "profile": "{b3519b7d-13d8-48b2-822c-e81af082bd53}",
+        "split": "down",
+        "startingDirectory": "C:\\Windows\\System32\\"
+      },
+      "id": "User.splitPane.D5151347"
+    },
+    {
       "command": "paste",
       "id": "User.paste"
     }
   ],
   "centerOnLaunch": true,
   "confirmCloseAllTabs": false,
-  "defaultProfile": "{b3519b7d-13d8-48b2-822c-e81af082bd53}",
+  "defaultProfile": "{feb2e6c1-5531-4328-b763-a5975193beac}",
   "focusFollowMouse": true,
   "keybindings": [
     {
@@ -36,6 +47,10 @@
     {
       "id": "User.splitPane.91AB55B1",
       "keys": "ctrl+shift+s"
+    },
+    {
+      "id": "User.splitPane.D5151347",
+      "keys": "ctrl+alt+shift+s"
     },
     {
       "id": "User.copy.644BA8F2",
@@ -59,44 +74,39 @@
       "cursorShape": "emptyBox",
       "font": {
         "colorGlyphs": false,
-        "face": "Maple Mono NF",
-        "size": 10,
+        "face": "JetBrainsMono Nerd Font Propo",
+        "size": 12,
         "weight": "bold"
       },
       "opacity": 0,
+      "padding": "20",
+      "scrollbarState": "hidden",
       "useAcrylic": true,
       "colorScheme": "wal",
-      "cursorColor": "#c2c3c3"
+      "cursorColor": "#c3c3c5"
     },
     "list": [
       {
-        "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-        "hidden": false,
-        "name": "Windows PowerShell"
-      },
-      {
-        "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-        "hidden": false,
-        "name": "Command Prompt"
-      },
-      {
-        "commandline": "\"C:\\Program Files\\WindowsApps\\Microsoft.PowerShell_7.5.2.0_x64__8wekyb3d8bbwe\\pwsh.exe\" -nologo",
-        "cursorShape": "emptyBox",
-        "experimental.retroTerminalEffect": true,
-        "font": {
-          "colorGlyphs": false,
-          "face": "JetBrainsMono Nerd Font Propo",
-          "size": 10
-        },
-        "guid": "{b3519b7d-13d8-48b2-822c-e81af082bd53}",
-        "hidden": false,
-        "name": "~ pwsh"
-      },
-      {
         "guid": "{f2101848-77d6-5d3f-ad12-098f844d015b}",
         "hidden": false,
-        "name": "Ubuntu",
+        "icon": "C:\\Users\\boibl\\Downloads\\ubuntu-icon-2048x2047-932t46od.png",
+        "name": "~ aero",
         "source": "Microsoft.WSL"
+      },
+      {
+        "guid": "{a4c14352-96ba-5582-a83f-cae9e3a16810}",
+        "hidden": false,
+        "icon": "C:\\Users\\boibl\\Downloads\\icons8-arch-linux-50.png",
+        "name": "~ arch",
+        "source": "Microsoft.WSL"
+      },
+      {
+        "commandline": "\"C:\\Users\\boibl\\AppData\\Local\\Microsoft\\WindowsApps\\Microsoft.PowerShell_8wekyb3d8bbwe\\pwsh.exe\" -nologo",
+        "guid": "{feb2e6c1-5531-4328-b763-a5975193beac}",
+        "hidden": false,
+        "icon": "C:\\Users\\boibl\\Downloads\\icons8-windows-11-50.ico",
+        "name": "~ pwsh",
+        "startingDirectory": "%USERPROFILE%"
       }
     ]
   },
@@ -104,24 +114,24 @@
   "schemes": [
     {
       "name": "wal",
-      "black": "#0d1112",
-      "red": "#4F5C63",
-      "green": "#59676E",
-      "yellow": "#64737A",
-      "blue": "#6B7C83",
-      "purple": "#77868D",
-      "cyan": "#818E94",
-      "white": "#c2c3c3",
-      "brightBlack": "#586c6c",
-      "brightRed": "#4F5C63",
-      "brightGreen": "#59676E",
-      "brightYellow": "#64737A",
-      "brightBlue": "#6B7C83",
-      "brightPurple": "#77868D",
-      "brightCyan": "#818E94",
-      "brightWhite": "#c2c3c3",
-      "background": "#0d1112",
-      "foreground": "#c2c3c3"
+      "black": "#0F0F18",
+      "red": "#384458",
+      "green": "#3D4B63",
+      "yellow": "#44495A",
+      "blue": "#48556B",
+      "purple": "#55637A",
+      "cyan": "#61697D",
+      "white": "#c3c3c5",
+      "brightBlack": "#5b5b6f",
+      "brightRed": "#384458",
+      "brightGreen": "#3D4B63",
+      "brightYellow": "#44495A",
+      "brightBlue": "#48556B",
+      "brightPurple": "#55637A",
+      "brightCyan": "#61697D",
+      "brightWhite": "#c3c3c5",
+      "background": "#0F0F18",
+      "foreground": "#c3c3c5"
     }
   ],
   "theme": "ModernDark",
