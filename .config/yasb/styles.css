@@ -1,26 +1,125 @@
 :root {
-    --bg: rgba(0, 0, 0, 0.7);
+    --bg: rgba(0, 0, 0, 0.6);
     --main: #9ba2a7;
-    --wallpaper: url("C:/Users/boibl/AppData/Local/Temp/IMG_1142.png");
-    --color1: #787D82;
-    --background: #0c0c0c;
-    --color9: #787D82;
-    --color7: #c2c2c2;
-    --color14: #C7B8B8;
-    --color10: #7C8388;
-    --color3: #8D8F93;
-    --cursor: #c2c2c2;
-    --color2: #7C8388;
-    --color5: #AEACAF;
-    --color13: #AEACAF;
-    --color0: #0c0c0c;
-    --color15: #c2c2c2;
-    --color6: #C7B8B8;
-    --color4: #9F9CA0;
-    --foreground: #c2c2c2;
-    --color11: #8D8F93;
-    --color8: #6a5757;
-    --color12: #9F9CA0;
+    --wallpaper: url("C:/Users/boibl/AppData/Local/Temp/wallhaven-45q699_1920x1080.png");
+    --color1: #384458;
+    --background: #0F0F18;
+    --color9: #384458;
+    --color7: #c3c3c5;
+    --color14: #61697D;
+    --color10: #3D4B63;
+    --color3: #44495A;
+    --cursor: #c3c3c5;
+    --color2: #3D4B63;
+    --color5: #55637A;
+    --color13: #55637A;
+    --color0: #0F0F18;
+    --color15: #c3c3c5;
+    --color6: #61697D;
+    --color4: #48556B;
+    --foreground: #c3c3c5;
+    --color11: #44495A;
+    --color8: #5b5b6f;
+    --color12: #48556B;
+}
+* {
+    font-size: 13px;
+    color: var(--color6);
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+.yasb-bar {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg);
+    border-radius: 18px;
+}
+.widget {
+    padding: 0 12px;
+    margin: 0;
+}
+.icon {
+    font-size: 16px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 0px;
+    color: var(--main);
+}
+.wi:root {
+  :root {
+    --bg: rgba(0, 0, 0, 0.6);
+    --main: #9ba2a7;
+    --wallpaper: url("C:/Users/boibl/AppData/Local/Temp/wallhaven-45q699_1920x1080.png");
+    --color1: #384458;
+    --background: #0F0F18;
+    --color9: #384458;
+    --color7: #c3c3c5;
+    --color14: #61697D;
+    --color10: #3D4B63;
+    --color3: #44495A;
+    --cursor: #c3c3c5;
+    --color2: #3D4B63;
+    --color5: #55637A;
+    --color13: #55637A;
+    --color0: #0F0F18;
+    --color15: #c3c3c5;
+    --color6: #61697D;
+    --color4: #48556B;
+    --foreground: #c3c3c5;
+    --color11: #44495A;
+    --color8: #5b5b6f;
+    --color12: #48556B;
+}
+* {
+    font-size: 13px;
+    color: var(--color6);
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+.yasb-bar {
+    padding: 0;
+    margin: 0;
+    background-color: var(--bg);
+    border-radius: 18px;
+}
+.widget {
+    padding: 0 12px;
+    margin: 0;
+}
+.icon {
+    font-size: 16px;
+    padding-right: 4px;
+    padding-left: 4px;
+    margin-left: 0px;
+    color: var(--main);
+}
+.wi:root {
+    --bg: rgba(0, 0, 0, 0.6);
+    --main: #9ba2a7;
+    --wallpaper: url("C:/Users/boibl/AppData/Local/Temp/wallhaven-45q699_1920x1080.png");
+    --color1: #384458;
+    --background: #0F0F18;
+    --color9: #384458;
+    --color7: #c3c3c5;
+    --color14: #61697D;
+    --color10: #3D4B63;
+    --color3: #44495A;
+    --cursor: #c3c3c5;
+    --color2: #3D4B63;
+    --color5: #55637A;
+    --color13: #55637A;
+    --color0: #0F0F18;
+    --color15: #c3c3c5;
+    --color6: #61697D;
+    --color4: #48556B;
+    --foreground: #c3c3c5;
+    --color11: #44495A;
+    --color8: #5b5b6f;
+    --color12: #48556B;
 }
 * {
     font-size: 13px;
@@ -63,9 +162,9 @@
     color: var(--main);
     margin: 0;
     font-size: 17px;
-    font-weight: 800;
+    font-weight: 600;
     height: 34px;
-    width: 30px;
+    width: 28px;
 }
 .komorebi-workspaces .ws-btn:hover {
     background: transparent;
@@ -81,7 +180,7 @@
     color: var(--main);
 }
 .komorebi-workspaces .ws-btn.active {
-    background-color: var(--color8);
+    background-color: var(--color1);
     border-radius: 0px;
     margin-left: 0px;
     padding-left: 0px;
@@ -268,9 +367,13 @@
     padding: 0 7px 0 7px;
 }
 .wallpapers-gallery-window {
-    background-color: rgba(85, 42, 240, 0.01);
+    background-color: rgba(0, 0, 0, 0.5);
     border: 0;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
 }
 .wallpapers-gallery-buttons {
     background-color: rgba(255, 255, 255, 0);
@@ -287,13 +390,13 @@
 }
 .wallpapers-gallery-image {
     border: 4px solid transparent;
-    border-radius: 10px;
+    border-radius: 7px;
 }
 .wallpapers-gallery-image:hover {
     border: 4px solid var(--color6);
 }
 .wallpapers-gallery-image.focused {
-    border: 4px solid var(--color8);
+    border: 3px solid var(--color8);
 }
 /* --- Power Menu Popup --- */
 /* Uptime text */
@@ -461,6 +564,9 @@
     font-weight: 600;
     margin-top: 4px;
 }
+
+
+
 
 
 
